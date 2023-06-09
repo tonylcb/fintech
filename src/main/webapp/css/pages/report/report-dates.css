@@ -1,0 +1,33 @@
+.dates__section {
+    background: var(--light-grey);
+    position: fixed;
+    right: 50%;
+    top: 80px;
+    transform: translateX(50%);
+    width: 100%;
+}
+
+.dates__container {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dates__first-element, .dates__last-element {
+    width: 50px;
+}
+
+.dates__last-element {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.dates__date-title {
+    font-weight: 700;
+}
+
+.dates__bttn {
+    background: none;
+    display: flex;
+}

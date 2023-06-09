@@ -1,0 +1,9 @@
+.default-salmon-button {
+  max-width: 386px;
+}
+
+@media all and (max-width: 460px) {
+  .default-salmon-button {
+    max-width: initial;
+  }
+}

@@ -1,0 +1,32 @@
+.notes__section {
+    margin-top: 50px;
+}
+
+.notes__title {
+    margin-bottom: 6px;
+}
+
+.notes__list-container {
+    border: 2px solid var(--main-turquoise);
+    padding: 10px 10px 30px;
+    border-radius: 5px;
+    min-height: 200px;
+    margin-bottom: 50px;
+    position: relative;
+}
+
+.notes__list-item {
+    min-height: 40px;
+    border-bottom: 1px solid var(--main-grey);
+    display: flex;
+    align-items: center;
+}
+
+.notes__more-details {
+    position: absolute;
+    bottom: 7px;
+    right: 10px;
+    background: none;
+    color: var(--main-salmon);
+    font-weight: 700;
+}

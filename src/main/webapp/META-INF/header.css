@@ -1,0 +1,31 @@
+.header__section {
+    background: #90DDDE;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.header__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    height: 80px;
+}
+
+.header__first-element, .header__last-element {
+    width: 50px;
+}
+
+.header__last-element {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header__menu-bttn {
+    display: flex;
+}
+
+.header__title-pages {
+    font-size: 1.25rem;
+}

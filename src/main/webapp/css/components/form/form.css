@@ -1,0 +1,80 @@
+.form__section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0 1rem;
+  margin-top: auto;
+}
+
+.add-account__container .form__section {
+  margin-top: 105px;
+}
+
+.form__title {
+  margin-bottom: 20px;
+}
+
+.form__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  max-width: 500px;
+}
+
+.form__container input {
+  height: 45px;
+  border: 2px solid var(--main-turquoise);
+  padding-left: 15px;
+  color: var(--black);
+  transition: 0.3s;
+  margin-bottom: 15px;
+  font-size: 1rem;
+}
+
+.form__container input:focus-visible {
+  border-color: var(--dark-turquoise);
+}
+
+.form__container button {
+  height: 50px;
+  background: var(--main-turquoise);
+  border: none;
+  color: var(--black);
+  font-size: 1rem;
+  margin-bottom: 18px;
+}
+
+.form__container button:hover {
+  filter: brightness(1.05);
+}
+
+.form__container button a {
+  font-weight: 500;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.form__forgot-container {
+  display: flex;
+  justify-content: center;
+}
+
+.form__forgot-bttn {
+  text-decoration: underline;
+  width: fit-content;
+}
+
+fieldset {
+  border: none;
+  display: flex;
+  flex-direction: column;
+}
+
+fieldset label {
+  margin-bottom: 7px;
+}
